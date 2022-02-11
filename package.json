@@ -1,0 +1,17 @@
+{
+    "name": "@vscode/python-installer",
+    "version": "0.1.0",
+    "description": "VS Code module for installing python packages",
+    "scripts": {
+        "compile": "tsc -p ./",
+        "compilewatch": "tsc -watch -p ./",
+        "download-api": "vscode-dts dev",
+        "postdownload-api": "vscode-dts main"
+    },
+    "author": "Visual Studio Code Team",
+    "license": "MIT",
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
